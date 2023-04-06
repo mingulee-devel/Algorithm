@@ -1,6 +1,5 @@
 
 import java.util.*;
-import java.lang.Math;
 
 class Solution {
     public int solution(int[] array) {
@@ -25,33 +24,3 @@ class Solution {
         return answer;
     }
 }
-
-// import java.util.*;
-
-// class Solution {
-//     public int solution(int[] array) {
-//         int answer = 0;
-        
-//         List<Integer> list = new ArrayList<>();
-//         List<Integer> list2 = new ArrayList<>();
-//         int[] arr = new int[array.length];
-//         int[] arr2 = new int[array.length];
-//         Arrays.sort(array);
-        
-//         for(int a : array){
-//             if(list.indexOf(a) == -1){
-//                 list.add(a);
-//                 list2.add(1);
-//                 continue; 
-//             }
-//             list2.set(list.indexOf(a), list2.get(list.indexOf(a)) + 1);
-//         }
-        
-//         int maxCount = -1;
-//         for(Integer b : list2){
-//             if(maxCount)
-//         }
-        
-//         return answer;
-//     }
-// }
